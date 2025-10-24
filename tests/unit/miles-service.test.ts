@@ -1,7 +1,7 @@
 import * as repository from "../../src/repositories/miles-repository";
 import * as calculator from "../../src/services/miles-calculator-service";
 import { generateMilesForTrip, getMilesFromCode } from "../../src/services/miles-service";
-import { createTrip } from "../factories/trip-factory"; // ← usa sua factory
+import { createTrip } from "../factories/trip-factory";
 describe("Miles Service Unit Tests", () => {
   afterEach(() => {
     jest.restoreAllMocks();
